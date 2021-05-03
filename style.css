@@ -1,0 +1,122 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+</style>
+
+html {
+    background: url("https://wallpaperaccess.com/full/1567679.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #E6E3D3;
+}
+
+
+
+.h1, #description{
+	font-family: 'Indie Flower', cursive;
+	 color: #D7AC5E;	
+	 text-align: center;
+
+}
+label{
+	font-family: "Poppins", sans-serif;
+	color: #C5BDD6;
+	font-size: 1.3em;
+}
+.h1{
+	font-size: 2.5em;
+
+}
+
+#description{
+	font-size: 1.6em;
+    padding-bottom: 35px;
+}
+#title{
+	padding-top: 40px;
+}
+.form-holder{
+	display: block;
+	background:transparent;
+	background-color: #1D2F3D ;
+	opacity:100%;
+	margin: 5px 310px;
+	border-radius: 30px;
+}
+h3{
+	 font-family: 'Indie Flower', cursive;;
+	font-size: 1.4em;
+	color: #D7AC5E;
+}
+form{
+	padding: 20px 50px;
+	opacity: 100%;
+}
+.number, .name, .email{
+	width: 600px;
+	height: 33px;
+	padding: 2px 11px;
+	border-radius: 5px;
+	border-color: white;
+	text-align: left;
+}
+#dropdown, #dropdown2{
+	width: 600px;
+	height: 45px;
+	font-size:1em;
+	color: #9BC4AF ;
+	border-radius:5px;
+}
+#textarea{
+	width: 600px;
+	height: 120px;
+	border-color: white;
+}
+::placeholder{
+   font-family: 'Indie Flower', cursive;
+	font-size: 1.3em;
+	color:#9BC4AF;
+}
+select{
+	padding: 2px 10px;
+	 font-family: 'Indie Flower', cursive;;
+}
+input[type="radio"]{
+	font-size: 1.3em;
+	font-family: 'Indie Flower', cursive;
+	margin:10px;
+	width: 25px;
+	height: 20px;
+}
+#gender-label{
+	font-size: 1.5em;
+	font-family: 'Indie Flower', cursive;
+    color: #8B5044;
+
+}
+.checkbox{
+	margin:10px;
+	width: 28px;
+	height: 20px;
+	color: #8B5044
+}
+
+
+button{
+margin: 30px 0px;
+border-color: none;
+width: 600px;
+height: 49px;
+text-align: center;
+background-color: #8B5044;
+border: 0px;
+transition: all 0.7;
+}
+button::hover{
+	cursor: pointer;
+ transform: scale(0.1);
+}
+.button{
+	cursor: pointer;
+}
