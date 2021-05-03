@@ -137,7 +137,7 @@ border: 0px;
 		justify-content: center;
 	}
 	.form-holder{
-		margin: auto auto;
+		margin: auto 250;
 		justify-content: center;
 		align-items: center;
 		display: inline-block;
