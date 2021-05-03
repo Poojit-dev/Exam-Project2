@@ -3,7 +3,7 @@
 </style>
 
 html {
-    background: url("https://wallpaperaccess.com/full/1567679.jpg") no-repeat center center fixed;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,12 +37,13 @@ label{
 	padding-top: 40px;
 }
 .form-holder{
-	display: block;
-	background:transparent;
+	display: flex;
 	background-color: #1D2F3D ;
-	opacity:100%;
 	margin: 5px 310px;
 	border-radius: 30px;
+	justify-content: center;
+	align-items: center;
+
 }
 h3{
 	 font-family: 'Indie Flower', cursive;;
@@ -111,12 +112,69 @@ height: 49px;
 text-align: center;
 background-color: #8B5044;
 border: 0px;
-transition: all 0.7;
-}
-button::hover{
-	cursor: pointer;
- transform: scale(0.1);
+
 }
 .button{
 	cursor: pointer;
+}
+
+@media screen and (max-width: 500px){
+	.h1{
+		font-size: 1.5em;
+	}
+	.Head{
+		justify-content: center;
+	}
+	label{
+		font-size: 1em;
+	}
+	#description{
+		font-size: 1em;
+		justify-content: center;
+	}
+	#title{
+		padding-top: 20px;
+		justify-content: center;
+	}
+	.form-holder{
+		margin: 3px auto;
+		justify-content: center;
+		align-items: center;
+		display: inline-block;
+	}
+	.number, .email, .name{
+		width: auto;
+		height: auto;
+		padding: 2px 11px;
+	border-radius: 5px;
+	border-color: white;
+	justify-content: center;
+	text-align: center;
+	}
+	#dropdown, #dropdown2{
+	width: auto;
+	height: auto;
+	font-size:1em;
+	color: #9BC4AF ;
+	border-radius:5px;
+}
+#textarea{
+	width: 200px;
+	height: 100px;
+	border-color: white;
+}
+button{
+margin: 30px 0px;
+border-color: none;
+width: 110px;
+height: auto;
+justify-content: center;
+text-align: center;
+background-color: #8B5044;
+border: 0px;
+
+}
+.button{
+	justify-content: center;
+}
 }
