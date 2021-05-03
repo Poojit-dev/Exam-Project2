@@ -150,10 +150,12 @@ border: 0px;
 		justify-content: center;
 	}
 	.form-holder{
-		margin: 200 150;
+		margin: 200px 150px;
 		justify-content: center;
 		align-items: center;
-		display: inline-block;
+		display: flex;
+		width:auto;
+		height:auto;
 	}
 	.number, .email, .name{
 		width: auto;
