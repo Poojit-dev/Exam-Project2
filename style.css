@@ -118,7 +118,7 @@ border: 0px;
 	cursor: pointer;
 }
 
-@media screen and (min-width: 500px){
+/* @media screen and (min-width: 500px){
 	.h1{
 		font-size: 1.5em;
 	}
@@ -177,4 +177,4 @@ border: 0px;
 .button{
 	justify-content: center;
 }
-}
+} */
